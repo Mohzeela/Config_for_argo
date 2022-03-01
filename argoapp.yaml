@@ -8,7 +8,6 @@ spec:
   source:
     repoURL: https://github.com/Mohzeela/Config_for_argo.git
     targetRevision: HEAD
-    path: {}
   destination:
     server: https://kubernetes.default.svc
     namespace: default
