@@ -8,11 +8,11 @@ spec:
   source:
     repoURL: https://github.com/Mohzeela/Config_for_argo.git
     targetRevision: HEAD
-    path: guestbook
+    path: {}
   destination:
     server: https://kubernetes.default.svc
     namespace: default
   syncPolicy:
     automated:
-      prune: false
-      selfHeal: false
+      prune: true
+      selfHeal: true
